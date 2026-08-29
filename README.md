@@ -1,5 +1,5 @@
 # censor-sheet-script-for-google-sheets
-App script to censor a Sheet in the active spreadsheet in a Google Sheets. 
+App script to censor a Sheet in the active spreadsheet in Google Sheets. 
 
 This is good for small data sets, but does not scale well as it duplicates the target sheet to make a censored one.
 
