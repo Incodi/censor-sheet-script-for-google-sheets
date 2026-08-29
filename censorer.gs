@@ -2,7 +2,7 @@ function updatePublicSheet() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
 
   const source = ss.getSheetByName("YOUR SOURCE SHEET");
-  const censorSheet = ss.getSheetByName("YOUR CENSORED WORD LIST");
+  const censorSheet = ss.getSheetByName("YOUR CENSORED WORD SHEET");
   const publicSheet = ss.getSheetByName("YOUR PUBLIC SHEET");
 
   if (!source) {
