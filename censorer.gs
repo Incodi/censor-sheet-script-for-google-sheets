@@ -1,9 +1,9 @@
 function updatePublicSheet() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
 
-  const source = ss.getSheetByName("other youtubers");
-  const censorSheet = ss.getSheetByName("censored");
-  const publicSheet = ss.getSheetByName("youtuber phrases, public and clean (loads slowly)");
+  const source = ss.getSheetByName("YOUR SOURCE SHEET");
+  const censorSheet = ss.getSheetByName("YOUR CENSORED WORD LIST");
+  const publicSheet = ss.getSheetByName("YOUR PUBLIC SHEET");
 
   if (!source) {
   throw new Error('Your source sheet doesnt exist');
